@@ -11,7 +11,6 @@ notifications:
   email: false
   
 before_install:
-  - psql -c "CREATE USER skateparks WITH PASSWORD 'skateparks';" -U postgres
   - echo $LANG
   - echo $LC_ALL
 
