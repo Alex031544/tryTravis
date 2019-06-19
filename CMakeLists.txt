@@ -2,4 +2,5 @@
 
 add_executable (
 	prog
-	main.cpp)
+	main.cpp
+)
